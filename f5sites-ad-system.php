@@ -81,7 +81,7 @@ function show_sponsor($type_of="excerpt", $hide_title="false") {
 		$ctt .= substr($post_object->post_content, 0, 96)."...";	
 	}
 	
-	if($type_of=="box-float-right" || $type_of=="box-float-left" )
+	if($type_of=="box-float-right" || $type_of=="box-float-left" || $type_of=="box-float-center" )
 		$ctt .= '</div>';
 
 	if(function_exists("revert_database_schema"))
