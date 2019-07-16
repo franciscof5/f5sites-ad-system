@@ -62,6 +62,9 @@ function show_sponsor($type_of="excerpt", $hide_title="false") {
 	
 	if($type_of=="box-float-left")
 		$ctt .= 'float: left; margin: 0 20px 10px 0">';
+
+	if($type_of=="box-float-center")
+		$ctt .= 'margin: 0 auto;">';
 	//if($type_of=="box-float-right")
 	//	$ctt .= '<div style="border: 1px solid #aaa; float: right; margin: 0 10px; padding: 10px; text-align:center;  max-width: 250px;">';
 		
