@@ -54,7 +54,7 @@ function show_sponsor($type_of="excerpt", $hide_title="false") {
 	$post_object = get_post( $post_id );
 	#setup_postdata( $post_object );
 	$ctt="";
-	if($type_of=="box-float-right" || $type_of=="box-float-left" )
+	if($type_of=="box-float-right" || $type_of=="box-float-left" || $type_of=="box-float-center" )
 		$ctt .= '<div style="border: 1px solid #aaa; padding: 10px; text-align:center;  max-width: 250px;';
 	
 	if($type_of=="box-float-right")
